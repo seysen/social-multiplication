@@ -43,17 +43,5 @@ final class MultiplicationResultAttemptController {
     @Getter
     static final class ResultResponse {
         private final boolean correct;
-/*
-        public ResultResponse(boolean correct) {
-            this.correct = correct;
-        }
-
-        public ResultResponse() {
-            correct = false;
-        }
-
-        public boolean isCorrect() {
-            return correct;
-        }*/
     }
 }
